@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>final web</title>
+        <link rel="stylesheet" href="calci.css">
+        <script type="text/javascript">
+            function add(){
+                document.z.f.value=parseInt(document.z.a.value)-parseInt(document.z.b.value)-parseFloat(document.z.c.value)*parseInt(document.z.d.value)
+                document.z.g.value=parseInt(document.z.f.value)/75*parseInt(document.z.e.value)
+
+                
+            }
+        </script>
+    </head>
+    <body background="C:\Users\Avinashkoduri\Downloads\crop.jpg">
+        <h1>Paddy Calculator</h1>
+        <marquee direction="left">*caluculate PADDY grains amount</marquee>
+        
+        
+        <form name="z">
+            <table align="center">
+                <tr><td>Enter Total Weight</td><td><img src="C:\Users\Avinashkoduri\Pictures\load.jpeg" height="40" width="60"></td></tr>
+                <tr><td><input type="text" name="a"></td></tr>
+                <tr><td>Enter Empty Weight</td></tr>
+                <tr><td><input type="text" name="b"></td></tr>
+                <tr><td>Enter Suit weight</td></tr>
+                <tr><td><input type="decimal"   name="c"></td></tr>
+                <tr><td>Enter No of bags</td></tr>
+                <tr><td><input type="number" name="d"></td></tr>
+                <tr><td>Enter Amount sold</td></tr>
+                <tr><td><input type="text" name="e"></td></tr>
+                <tr><td><input type="button" value="submit" onclick="add()"></td></tr>
+            </table>
+            <table align="center">
+                <tr><td bgcolor="red">RESULT</td></tr>
+                <tr><td>Net Grain Weight</td></tr>
+                <tr><td><input type="text" name="f"></td></tr>
+                <tr><td>Final Amount</td></tr>
+                <tr><td><input type="text" name="g"></td></tr>
+            </table>
+        </form>
+    </body>
+</html>

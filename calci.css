@@ -1,0 +1,26 @@
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-style: solid;
+}
+marquee{
+    background-color:whitesmoke;
+    border-style: double;
+    border-color:black;
+}
+a{
+    color:black;
+    border-style: double;
+    border-color: antiquewhite;
+}
+table{
+    
+    border: aqua;
+    outline-color: black;
+}
